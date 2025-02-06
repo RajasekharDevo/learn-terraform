@@ -20,7 +20,7 @@ variable "sample_boolean" {
 ### Variable Types
 #so for we have seen is default variable type
 
-# we have list variable type , meaning singel  variable can be hold multiple values
+# we have list variable type , meaning single   variable can be hold multiple values
 variable "sample_list" {
   default = [
     100,
@@ -32,7 +32,7 @@ variable "sample_list" {
 
 ## Data type inside the list does not matter in terraform
 
-#We have a dictionary (or map), Meaning single variable will have multiple values, & Each value is going tohave a saperate name.
+#We have a dictionary (or map), Meaning single variable will have multiple values, & Each value is going to  have a saperate name.
 
 variable "sample_dict" {
   default = {
@@ -44,3 +44,7 @@ variable "sample_dict" {
 }
 
 ## This is the most preferred variable over the list when we declare
+
+variable "env" {}
+variable "auto_num" {}
+variable "sample" {}
