@@ -47,4 +47,4 @@ variable "sample_dict" {
 
 variable "env" {}
 variable "auto_num1" {}
-variable "sample" {}
+variable "sample1" {}
