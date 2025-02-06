@@ -46,5 +46,5 @@ variable "sample_dict" {
 ## This is the most preferred variable over the list when we declare
 
 variable "env" {}
-variable "auto_num" {}
+variable "auto_num1" {}
 variable "sample" {}
