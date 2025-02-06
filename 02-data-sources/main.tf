@@ -1,5 +1,5 @@
 data "aws_security_group" "selected" {
-  name = "default"
+  name = "launch-wizard-16"
 }
 
 output "security_group_id" {
