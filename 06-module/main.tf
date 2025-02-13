@@ -1,7 +1,8 @@
 module "sample"{
   source = "./module"
-  input  =" module.dummy.dummy$"
+  input  = module.dummy.dummy_op
 }
 
-
-variable "input"{ }
+module "dummy"{
+source = "./dummy"
+}
