@@ -1,8 +1,7 @@
 resource "aws_instance" "workstation" {
   ami = "i-02fbd2488edd1e856"
   instance_type = "t3.small"
-  tags
-  = {
+  tags                = {
     "Name" = "workstation"
   }
 }
